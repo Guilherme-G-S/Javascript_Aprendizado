@@ -168,3 +168,22 @@ function divisao(conta1, conta2, conta3) {
 
 divisao(10000, 3, 1)
 console.log(saldo3)
+
+// Cenário 4: Realizando uma comparação de valores de uma conta com sucesso
+// Dado que meu saldo é de 10000 reais
+// E quero comparar esse valor com outra conta
+// Quando eu realizo a comparação
+// Então deve me mostrar um alerta que os valores são iguais
+
+var saldo4 = 10000
+
+function comparacao(conta1, conta2) {
+    if (conta1 == conta2) {
+        alert('Os valores são iguais')
+    } else {
+        alert('Os valores são diferentes')
+    }
+}
+
+comparacao(10000, 1000)
+console.log(saldo4)
