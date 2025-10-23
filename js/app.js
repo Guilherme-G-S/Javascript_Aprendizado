@@ -153,3 +153,18 @@ function saque2(valor2){
 
 saque2(15000)
 console.log(saldo2)
+
+// Cemário 3: Realizando uma divisão de valores de uma conta com sucesso
+// Dado que meu saldo é de 10000 reais
+// E quero dividir esse valor por 2 contas
+// Quando eu realizo a divisão
+// Então o valor deve ser deduzido do meu saldo
+
+var saldo3 = 10000
+
+function divisao(conta1, conta2, conta3) {
+    saldo3 = conta1 / conta2 / conta3
+}
+
+divisao(10000, 3, 1)
+console.log(saldo3)
