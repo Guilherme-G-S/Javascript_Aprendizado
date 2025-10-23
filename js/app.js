@@ -127,14 +127,14 @@
 // Quando eu realizo um saque de 7500 reais
 // Então o valor do saque deve ser deduzido do meu saldo
 
-// var saldo = 10000
+var saldo = 10000
 
-// function saque(valor) {
-//     saldo = saldo - valor
-// }
+function saque(valor) {
+    saldo = saldo - valor
+}
 
-// saque(7500)
-// console.log(saldo)
+saque(7500)
+console.log(saldo)
 
 // Cenário 2: Realizando um saque que o valor seja maior que o saldo
 // Dado que eu tenho 10000 reais
